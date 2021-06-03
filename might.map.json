@@ -1,0 +1,187 @@
+{
+  "data": [
+    {
+      "title": "Dashboard (Logged In)",
+      "steps": [
+        {
+          "action": "wait",
+          "value": "#pg-login"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"email\"]"
+        },
+        {
+          "action": "type",
+          "value": "eva@zombie.co"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"password\"]"
+        },
+        {
+          "action": "type",
+          "value": "#MikaIsCool99"
+        },
+        {
+          "action": "select",
+          "value": "#btn-login"
+        },
+        {
+          "action": "click",
+          "value": "left"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "title": "Dashboard (Logged out)",
+      "steps": [
+        {
+          "action": "wait",
+          "value": "#pg-login"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"email\"]"
+        },
+        {
+          "action": "type",
+          "value": "eva@zombie.co"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"password\"]"
+        },
+        {
+          "action": "type",
+          "value": "#MikaIsCool99"
+        },
+        {
+          "action": "select",
+          "value": "#btn-login"
+        },
+        {
+          "action": "click",
+          "value": "left"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        },
+        {
+          "action": "select",
+          "value": "#btn-logout"
+        },
+        {
+          "action": "click",
+          "value": "left"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "title": "Username (Invalid)",
+      "steps": [
+        {
+          "action": "wait",
+          "value": "#pg-login"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"email\"]"
+        },
+        {
+          "action": "type",
+          "value": "t e a m@iris"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "title": "Username (Valid)",
+      "steps": [
+        {
+          "action": "wait",
+          "value": "#pg-login"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"email\"]"
+        },
+        {
+          "action": "type",
+          "value": "eva@zombie.co"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "title": "Password (Valid)",
+      "steps": [
+        {
+          "action": "wait",
+          "value": "#pg-login"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"password\"]"
+        },
+        {
+          "action": "type",
+          "value": "#MikaIsCool99"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "title": "Password (Invalid)",
+      "steps": [
+        {
+          "action": "wait",
+          "value": "#pg-login"
+        },
+        {
+          "action": "select",
+          "value": "[type=\"password\"]"
+        },
+        {
+          "action": "type",
+          "value": "mikaiscool"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "title": "Dashboard (Not Logged)",
+      "steps": [
+        {
+          "action": "goto",
+          "value": "/dashboard"
+        },
+        {
+          "action": "wait",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}
