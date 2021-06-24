@@ -157,7 +157,7 @@ const styles = createStyle({
     maxWidth: '350px',
 
     fontWeight: 700,
-    fontFamily: '"Montserrat", "Noto Arabic", sans-serif',
+    fontFamily: '"Montserrat", sans-serif',
 
     padding: '15vh 0',
     margin: 'auto'
